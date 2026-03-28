@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "lifesteal",
+  "version": "1.0.0",
+  "name": "Lifesteal Mod",
+  "description": "Gain hearts on kills and withdraw hearts",
+  "authors": [
+    "RiggelLire"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.lifesteal.LifestealMod"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.14.0",
+    "fabric-api": "*",
+    "minecraft": "1.21.11"
+  }
+}
